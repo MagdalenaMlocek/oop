@@ -24,6 +24,9 @@ micra.startEngine();
 
 Vehicle vehicle = new Vehicle (2005, "micra", true, 200000);
 vehicle.startEngine();
+
+Bmw bmw = new Bmw(2006,"5", true, 200000,Drive.AWD);
+bmw.startEngine();
     }
 
 }
