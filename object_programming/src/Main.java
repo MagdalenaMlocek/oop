@@ -19,14 +19,22 @@ public class Main {
 //
 */
 
-Nissan micra = new Nissan(2005, "micra", true, 200000, "leather");
-micra.startEngine();
+//Nissan micra = new Nissan(2005, "micra", true, 200000, "leather");
+//micra.startEngine();
+//
+//Vehicle vehicle = new Vehicle (2005, "micra", true, 200000);
+//vehicle.startEngine();
+//
+//Bmw bmw = new Bmw(2006,"5", true, 200000,Drive.AWD);
+//bmw.startEngine();
 
-Vehicle vehicle = new Vehicle (2005, "micra", true, 200000);
-vehicle.startEngine();
+        Cat kot = new Cat();
+        kot.sleep();
+        kot.sound();
+        Dog pies = new Dog();
+        pies.sleep();
+        pies.sound();
 
-Bmw bmw = new Bmw(2006,"5", true, 200000,Drive.AWD);
-bmw.startEngine();
     }
 
 }
